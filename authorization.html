@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Авторизация</title>
+</head>
+<body>
+  <button class="dark-btn">Темная тема</button>
+  <section id="authorization">
+    <div class="header-text">
+      <h1>Войти в WEB ID</h1>
+      <p><span>Забыли WEB ID?</span></p>
+    </div>
+
+    <form class="authorization-form" action="authorization.php" method="POST">
+      <input type="email" id="user-email" name="email" placeholder="Почта" required>
+      <input type="password" id="user-password" name="password" placeholder="Пароль" required>
+
+      <p class="or">или</p>
+    
+      <div class="socials">
+        <img src="assets/VK Circled.png" alt="VK">
+        <img src="assets/icons8-компьютер-100.png", alt="Telegram">
+        <img src="assets/Instagram Circle.png" alt="Instagram">
+      </div>
+
+      <input type="submit" value="Войти">
+    </form>
+  </section>
+  <script src="darkThemeAuth.js"></script>
+</body>
+</html>
